@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "ticktacktoeminiapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deemoji/TickTackToeMiniApp",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7fe6ff8e4e7e5b3cf69834d4326e087a0c9a6e33"
+      }
+    },
+    {
+      "identity" : "todominiapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deemoji/TodoMiniApp",
+      "state" : {
+        "branch" : "main",
+        "revision" : "afe586fb4edfa1b2bb0a4433cd7a3d19dee68bed"
+      }
+    },
+    {
+      "identity" : "weatherminiapp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/deemoji/WeatherMiniApp",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c1aa375b05c8d6c25cd2b792caa77ab512ddc04b"
+      }
+    }
+  ],
+  "version" : 2
+}

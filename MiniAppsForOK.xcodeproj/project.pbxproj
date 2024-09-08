@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0ED1712C8B454A003DE3C3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0ED1702C8B454A003DE3C3 /* ViewModel.swift */; };
+		EF12B3392C8E034400714AA5 /* WeatherMiniApp in Frameworks */ = {isa = PBXBuildFile; productRef = EF12B3382C8E034400714AA5 /* WeatherMiniApp */; };
+		EF12B33C2C8E038500714AA5 /* TodoMiniApp in Frameworks */ = {isa = PBXBuildFile; productRef = EF12B33B2C8E038500714AA5 /* TodoMiniApp */; };
+		EF12B33F2C8E03C600714AA5 /* TickTackToeMiniApp in Frameworks */ = {isa = PBXBuildFile; productRef = EF12B33E2C8E03C600714AA5 /* TickTackToeMiniApp */; };
+		EFF3358C2C88EB08009B039B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3358B2C88EB08009B039B /* AppDelegate.swift */; };
+		EFF3358E2C88EB08009B039B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3358D2C88EB08009B039B /* SceneDelegate.swift */; };
+		EFF335902C88EB08009B039B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3358F2C88EB08009B039B /* ViewController.swift */; };
+		EFF335932C88EB08009B039B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF335912C88EB08009B039B /* Main.storyboard */; };
+		EFF335952C88EB0B009B039B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF335942C88EB0B009B039B /* Assets.xcassets */; };
+		EFF335982C88EB0B009B039B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF335962C88EB0B009B039B /* LaunchScreen.storyboard */; };
+		EFF335A02C88EC2C009B039B /* MiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3359F2C88EC2C009B039B /* MiniApp.swift */; };
+		EFF335A32C8A3628009B039B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF335A12C8A3628009B039B /* CollectionViewCell.swift */; };
+		EFF335A42C8A3628009B039B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFF335A22C8A3628009B039B /* CollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF0ED1702C8B454A003DE3C3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EFF335882C88EB08009B039B /* MiniAppsForOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniAppsForOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF3358B2C88EB08009B039B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFF3358D2C88EB08009B039B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFF3358F2C88EB08009B039B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFF335922C88EB08009B039B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFF335942C88EB0B009B039B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF335972C88EB0B009B039B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFF335992C88EB0B009B039B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF3359F2C88EC2C009B039B /* MiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp.swift; sourceTree = "<group>"; };
+		EFF335A12C8A3628009B039B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EFF335A22C8A3628009B039B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF335852C88EB08009B039B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF12B33F2C8E03C600714AA5 /* TickTackToeMiniApp in Frameworks */,
+				EF12B3392C8E034400714AA5 /* WeatherMiniApp in Frameworks */,
+				EF12B33C2C8E038500714AA5 /* TodoMiniApp in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF12B3332C8D1D0D00714AA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFF3359F2C88EC2C009B039B /* MiniApp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF12B3342C8D1D1E00714AA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFF3358D2C88EB08009B039B /* SceneDelegate.swift */,
+				EFF3358B2C88EB08009B039B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF12B3352C8D1D6A00714AA5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF12B3362C8D1D7D00714AA5 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF12B3362C8D1D7D00714AA5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFF335A12C8A3628009B039B /* CollectionViewCell.swift */,
+				EFF335912C88EB08009B039B /* Main.storyboard */,
+				EFF335A22C8A3628009B039B /* CollectionViewCell.xib */,
+				EF0ED1702C8B454A003DE3C3 /* ViewModel.swift */,
+				EFF3358F2C88EB08009B039B /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EFB64E702C8C401E00AF5F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF3357F2C88EB07009B039B = {
+			isa = PBXGroup;
+			children = (
+				EFF3358A2C88EB08009B039B /* MiniAppsForOK */,
+				EFF335892C88EB08009B039B /* Products */,
+				EFB64E702C8C401E00AF5F60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF335892C88EB08009B039B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF335882C88EB08009B039B /* MiniAppsForOK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF3358A2C88EB08009B039B /* MiniAppsForOK */ = {
+			isa = PBXGroup;
+			children = (
+				EF12B3352C8D1D6A00714AA5 /* Scenes */,
+				EF12B3342C8D1D1E00714AA5 /* App */,
+				EF12B3332C8D1D0D00714AA5 /* Model */,
+				EFF335942C88EB0B009B039B /* Assets.xcassets */,
+				EFF335962C88EB0B009B039B /* LaunchScreen.storyboard */,
+				EFF335992C88EB0B009B039B /* Info.plist */,
+			);
+			path = MiniAppsForOK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF335872C88EB08009B039B /* MiniAppsForOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF3359C2C88EB0B009B039B /* Build configuration list for PBXNativeTarget "MiniAppsForOK" */;
+			buildPhases = (
+				EFF335842C88EB08009B039B /* Sources */,
+				EFF335852C88EB08009B039B /* Frameworks */,
+				EFF335862C88EB08009B039B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniAppsForOK;
+			packageProductDependencies = (
+				EF12B3382C8E034400714AA5 /* WeatherMiniApp */,
+				EF12B33B2C8E038500714AA5 /* TodoMiniApp */,
+				EF12B33E2C8E03C600714AA5 /* TickTackToeMiniApp */,
+			);
+			productName = MiniAppsForOK;
+			productReference = EFF335882C88EB08009B039B /* MiniAppsForOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF335802C88EB07009B039B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFF335872C88EB08009B039B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EFF335832C88EB07009B039B /* Build configuration list for PBXProject "MiniAppsForOK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF3357F2C88EB07009B039B;
+			packageReferences = (
+				EF12B3372C8E034400714AA5 /* XCRemoteSwiftPackageReference "WeatherMiniApp" */,
+				EF12B33A2C8E038500714AA5 /* XCRemoteSwiftPackageReference "TodoMiniApp" */,
+				EF12B33D2C8E03C600714AA5 /* XCRemoteSwiftPackageReference "TickTackToeMiniApp" */,
+			);
+			productRefGroup = EFF335892C88EB08009B039B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF335872C88EB08009B039B /* MiniAppsForOK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF335862C88EB08009B039B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF335982C88EB0B009B039B /* LaunchScreen.storyboard in Resources */,
+				EFF335952C88EB0B009B039B /* Assets.xcassets in Resources */,
+				EFF335A42C8A3628009B039B /* CollectionViewCell.xib in Resources */,
+				EFF335932C88EB08009B039B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF335842C88EB08009B039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF335902C88EB08009B039B /* ViewController.swift in Sources */,
+				EFF3358C2C88EB08009B039B /* AppDelegate.swift in Sources */,
+				EFF335A32C8A3628009B039B /* CollectionViewCell.swift in Sources */,
+				EFF335A02C88EC2C009B039B /* MiniApp.swift in Sources */,
+				EFF3358E2C88EB08009B039B /* SceneDelegate.swift in Sources */,
+				EF0ED1712C8B454A003DE3C3 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFF335912C88EB08009B039B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF335922C88EB08009B039B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF335962C88EB0B009B039B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF335972C88EB0B009B039B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF3359A2C88EB0B009B039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF3359B2C88EB0B009B039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF3359D2C88EB0B009B039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGBRYLM9ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniAppsForOK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dmitrijmartianov.MiniAppsForOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF3359E2C88EB0B009B039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GGBRYLM9ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiniAppsForOK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dmitrijmartianov.MiniAppsForOK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF335832C88EB07009B039B /* Build configuration list for PBXProject "MiniAppsForOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF3359A2C88EB0B009B039B /* Debug */,
+				EFF3359B2C88EB0B009B039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF3359C2C88EB0B009B039B /* Build configuration list for PBXNativeTarget "MiniAppsForOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF3359D2C88EB0B009B039B /* Debug */,
+				EFF3359E2C88EB0B009B039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF12B3372C8E034400714AA5 /* XCRemoteSwiftPackageReference "WeatherMiniApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/deemoji/WeatherMiniApp";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EF12B33A2C8E038500714AA5 /* XCRemoteSwiftPackageReference "TodoMiniApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/deemoji/TodoMiniApp";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		EF12B33D2C8E03C600714AA5 /* XCRemoteSwiftPackageReference "TickTackToeMiniApp" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/deemoji/TickTackToeMiniApp";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF12B3382C8E034400714AA5 /* WeatherMiniApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF12B3372C8E034400714AA5 /* XCRemoteSwiftPackageReference "WeatherMiniApp" */;
+			productName = WeatherMiniApp;
+		};
+		EF12B33B2C8E038500714AA5 /* TodoMiniApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF12B33A2C8E038500714AA5 /* XCRemoteSwiftPackageReference "TodoMiniApp" */;
+			productName = TodoMiniApp;
+		};
+		EF12B33E2C8E03C600714AA5 /* TickTackToeMiniApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF12B33D2C8E03C600714AA5 /* XCRemoteSwiftPackageReference "TickTackToeMiniApp" */;
+			productName = TickTackToeMiniApp;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EFF335802C88EB07009B039B /* Project object */;
+}
